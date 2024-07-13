@@ -90,7 +90,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    shop = PetShop(random_animal)
+    shop = PetShop(random.choice([Dog,Cat]))
     import doctest
 
     doctest.testmod()
