@@ -107,5 +107,8 @@ def main():
 
 if __name__ == "__main__":
     import doctest
-
+    
+    rm0 = Borg()
+    rm1 = YourBorg()
+    
     doctest.testmod()
